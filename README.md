@@ -20,7 +20,9 @@ To view the full report, open:
  
 or download and open it locally.
 
-## 📢 Recommendations
+<br><br><br>
+
+### 📢 Recommendations
 
 1. Launch seasonal marketing campaigns (e.g., summer discounts).
 2. Promote cost savings and convenience for commuting.
