@@ -20,18 +20,16 @@ To view the full report, open:
  
 or download and open it locally.
 
-<br><br><br>
-
-### 📢 Recommendations
+## 📢 Recommendations
 
 1. Launch seasonal marketing campaigns (e.g., summer discounts).
 2. Promote cost savings and convenience for commuting.
 3. Offer flexible membership options like weekend passes or summer-only plans.
 
 
+<br><br><br>
 
-
-## 🙏 Acknowledgments
+### 🙏 Acknowledgments
 
 Parts of this project were inspired by publicly available work from other data analysts ( https://github.com/ojaswani16 ). I used those sources as a reference to guide the structure and storytelling of my own analysis. All visualizations, code, and conclusions presented here were developed independently as part of my own learning process.
 
