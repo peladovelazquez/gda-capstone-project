@@ -31,4 +31,4 @@ or download and open it locally.
 ### 📬 Contact
 
 **Author**: Gonzalo J. Velazquez  
-📍 Buenos Aires, Argentina
+📍 Barcelona, Spain
