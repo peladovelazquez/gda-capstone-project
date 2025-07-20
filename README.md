@@ -15,7 +15,6 @@ The main business task is to analyze usage patterns between two user types — *
 ## 📄 Final Report
 
 To view the full report, open:  
-👉 ## 🔗 View the Report
 
 👉 [Click here to view the full interactive report](https://peladovelazquez.github.io/cyclistic-capstone-project/)
  
