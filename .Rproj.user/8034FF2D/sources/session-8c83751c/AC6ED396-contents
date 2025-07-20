@@ -1,0 +1,13 @@
+# Archivos grandes o innecesarios
+*.RData
+*.Rhistory
+*.csv
+*.rds
+*.zip
+
+# Archivos del sistema
+.DS_Store
+
+# Datos pesados específicos (por nombre)
+bike_df.csv
+bikes_datasets_20250708.RData

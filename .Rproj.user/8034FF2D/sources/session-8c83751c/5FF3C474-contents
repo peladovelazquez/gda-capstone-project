@@ -1,0 +1,22 @@
+test <- bike_df
+
+df_by_hour <- test %>%
+  mutate(hour = hour(started_at)) %>%     # Extrae la hora (0-23)
+  group_by(hour, member_casual) %>%
+  summarise(trips = n(), .groups = "drop")  # Cuenta viajes por hora
+
+# Paso 2: Asegurar que el eje X tenga todas las horas (0 a 23)
+df_by_hour <- df_by_hour %>%
+  complete(hour = 0:23, fill = list(trips = 0))  # Rellena horas faltantes con 0
+
+# Paso 3: Graficar
+ggplot(df_by_hour, aes(x = hour, y = trips, fill = member_casual)) +
+  geom_col() +
+  scale_x_continuous(breaks = 0:23) +  # Mostrar todas las horas en X
+  labs(x = "hour of the day", y = "number of bike rides", 
+       title = "Number Of Bike Rides By Hour Of The Day",
+       fill="type of user",
+       subtitle = "Comparison between casual riders and annual members") +
+  theme_minimal() + facet_wrap(~member_casual) +
+  scale_y_continuous(labels = label_number(scale = 1e-3, suffix = "k"))
+

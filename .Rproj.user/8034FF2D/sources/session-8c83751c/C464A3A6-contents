@@ -1,0 +1,9 @@
+test <- bike_df
+
+test <- test %>% mutate(is_work_hour = ifelse(hour(started_at) >= 8 & hour(started_at)<=17, "working hour", "not working" ))
+
+ggplot(data = test, aes(x= is_work_hour, fill = member_casual)) + geom_bar(stat = "count") + facet_wrap(~member_casual)
+drop(test)
+              
+       
+rm(test)
