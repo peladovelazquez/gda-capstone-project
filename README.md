@@ -17,7 +17,7 @@ The main business task is to analyze usage patterns between two user types — *
 To view the full report, open:  
 
 
-👉 [Click here to view the full report](Cyclistic%20Capstone%20Report.html)
+👉 [Click here to view the full report](Cyclistic-Capstone-Report.html)
 
 or download and open it locally.
 
