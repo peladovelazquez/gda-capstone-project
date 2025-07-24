@@ -28,8 +28,7 @@ or download and open it locally.
 2. Promote cost savings and convenience for commuting.
 3. Offer flexible membership options like weekend passes or summer-only plans.
 
-<<<<<<< HEAD
-=======
+
 
 <br><br><br>
 
