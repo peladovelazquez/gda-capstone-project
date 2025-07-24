@@ -16,8 +16,9 @@ The main business task is to analyze usage patterns between two user types — *
 
 To view the full report, open:  
 
-👉 [Click here to view the full interactive report](https://peladovelazquez.github.io/cyclistic-capstone-project/)
- 
+
+👉 [Click here to view the full report](https://peladovelazquez.github.io/cyclistic-capstone-project/)
+
 or download and open it locally.
 
 ## 📢 Recommendations
@@ -26,7 +27,18 @@ or download and open it locally.
 2. Promote cost savings and convenience for commuting.
 3. Offer flexible membership options like weekend passes or summer-only plans.
 
----
+<<<<<<< HEAD
+=======
+
+<br><br><br>
+
+### 🙏 Acknowledgments
+
+Parts of this project were inspired by publicly available work from other data analysts ( https://github.com/ojaswani16 ). I used those sources as a reference to guide the structure and storytelling of my own analysis. All visualizations, code, and conclusions presented here were developed independently as part of my own learning process.
+
+Special thanks to the data analytics community for sharing open-source projects that help others learn and grow.
+
+
 
 ### 📬 Contact
 
